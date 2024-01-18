@@ -17,7 +17,13 @@ app.use((req, res, next) => {
 app.use('/api/workouts', workoutRoutes)
 app.use('/api/user', userRoutes)
 
-mongoose.connect(process.env.MONGODB_URI)
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://www.lift-off.fun');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     app.listen(process.env.PORT, () => {
       console.log('connected to db & listening on port', process.env.PORT)
