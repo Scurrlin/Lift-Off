@@ -16,7 +16,7 @@ export const useSignup = () => {
     setError(null);
 
     try {
-      const response = await fetch('/api/user/signup', {
+      const response = await fetch('https://lift-off.onrender.com//api/user/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
