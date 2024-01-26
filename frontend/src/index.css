@@ -25,7 +25,6 @@ header a {
   text-decoration: none;
 }
 .pages{
-  max-width: 1400px;
   padding: 20px;
   margin: 0 auto;
   background: linear-gradient(180deg, rgb(26, 172, 131) 0%, rgb(241, 241, 241) 100%);
