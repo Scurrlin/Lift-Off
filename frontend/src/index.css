@@ -30,6 +30,8 @@ header a {
   background: linear-gradient(180deg, rgb(26, 172, 131) 0%, rgb(241, 241, 241) 100%);
 }
 .home {
+  max-width: 1400px;
+  margin: auto;
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 100px;
