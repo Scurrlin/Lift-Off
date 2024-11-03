@@ -9,7 +9,6 @@ A full MERN stack exercise journal to help you reach your fitness goals! This ap
 ![Sign Up](https://i.imgur.com/RSWIkj6.png)
 
 ## Technologies Used
-
 * ReactJS
 * NodeJS
 * Express
