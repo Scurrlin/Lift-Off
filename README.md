@@ -3,11 +3,6 @@ A full MERN stack exercise journal to help you reach your fitness goals! This ap
 
 ![banner_image](https://i.imgur.com/uUKoExT.png)
 
-## Get Some Reps In!
-[Lift Off](http://www.lift-off.fun/)
-
-![Sign Up](https://i.imgur.com/RSWIkj6.png)
-
 ## Technologies Used
 * ReactJS
 * NodeJS
