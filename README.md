@@ -1,5 +1,5 @@
 # Lift-Off
-A full MERN stack [exercise journal](https://www.lift-off.fun/login) to help you reach your fitness goals! Built with React, MongoDB, Express, Node, Hostinger, and JSON Web Tokens.
+A full MERN stack [exercise journal](https://www.lift-off.fun/login) to help you reach your fitness goals!
 
 ![banner_image](https://i.imgur.com/uUKoExT.png)
 
